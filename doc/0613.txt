@@ -1,0 +1,16 @@
+vue页面中import 显示不是个函数
+就算引入单个函数也要加上{  }
+
+RegExpObject.test(string)
+
+vm.$refs   VUE-api-实例  尽管存在 prop 和事件，有的时候你仍可能需要在 JavaScript 里直接访问一个子组件
+
+$nextTick
+
+点击发送验证码后 按钮不显示 计时器显示    Button中包裹count-down和span 通过v-if isSending控制2个之间切换
+
+...Array  Array.unshift
+
+加载更多数据   简化处理 直接用不同时间戳对应不同数据
+
+频道 computed 

@@ -1,0 +1,33 @@
+props
+meta
+rem为什么不继续用
+107
+
+Invalid prop: type check failed for prop "border". Expected Boolean, got String with value "true".
+VantUI中将value为Boolean 设置成string
+
+Property or method "channel" is not defined on the instance but referenced during render. Make sure that this property is is reactive, either in the data option, or for class-based components, by initializing the property
+没定义却使用了
+
+"TypeError: Cannot read property 'filter' of undefined"
+调用filter方法的应该是个数组 不小心从data从错放到prop
+
+Avoid using non-primitive value as key, use string/number value instead
+key不能用原始数据
+
+Cannot read property 'index' of undefined
+index为vfor中value键值 则是item有错误
+
+点击按钮 Boolean值不改变
+在数据中多加一行数据
+
+cell grid-item里面放span
+
+Missing required prop: "channel"
+父组件没有向下传参
+
+vfor可以指定index参数
+
+| relativeTime
+
+由于van-list自带样式为居中，重新更改布局为flex
